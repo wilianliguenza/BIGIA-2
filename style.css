@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Teko:wght@300..700&display=swap');
+:root{
+    --cor-fundo: #01080E ;
+    --cor-principal: #1c2150a9 ;
+    --cor-secundaria: #2123333b; 
+    --cor-destaque: #487ae4;
+    --cor-texto: #D7F9FF;
+    font-family:teko;
+    font-optical-sizing: auto;
+    font-size: x-large;
+
+}
+
+body {
+    background-image: url(Bigia.png);
+    background-size: cover;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    font-family: teko;
+    font-size: large;
+    background-color:#191970ce;
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+    margin: 15px;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
